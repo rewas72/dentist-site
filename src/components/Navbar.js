@@ -41,7 +41,7 @@ const Navbar = () => {
         const targetElement = document.getElementById(targetId);
         if(targetId){
             window.scrollTo({
-                top:targetElement.offsetTop -100,
+                top:targetElement.offsetTop -70,
                 behavior: "smooth"
             })
         }

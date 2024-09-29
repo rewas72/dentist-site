@@ -5,7 +5,7 @@ import ortodonti from '../assets/ortodonti.jpg'
 const Services = () => {
   return (
     <div id='services' className=' bg-[#f7f8fc]'>
-      <div className='pt-10 px-4 container mx-auto'>
+      <div className=' px-4 container mx-auto'>
         <div className='space-y-5 '>
           <h2 className='text-4xl text-center leading-snug text-heroBg'>Hizmetlerimiz</h2>
           <p className='md:w-1/2 mx-auto text-center '>Kliniğimizde 5 yıllık deneyimle, ağız ve diş sağlığınızı korumak ve en iyi çözümleri sunmak için modern teknoloji ve alanında uzman kadromuzla hizmet veriyoruz.
