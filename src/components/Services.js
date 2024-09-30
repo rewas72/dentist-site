@@ -22,15 +22,18 @@ const Services = () => {
               <Tab>Estetik Diş Hekimliği</Tab>
             </TabList>
 
-            <TabPanel className="grid grid-flow-col md:grid-flow-row gap-8 mt-8 items-center">
-              <div className='md:w-1/2 bg-white rounded-sm p-12 font-primary mt-4'>
-                <h3 className='text-2xl font-semibold text-primary'>Ortodonti</h3>
-                <p className='mb-4'>
-                  Çapraşık veya düzensiz diş yapısını, diş teli ve şeffaf plak (Invisalign) tedavileri ile düzeltip, sağlıklı ve estetik bir gülüşe kavuşmanızı sağlıyoruz.
-                </p>
-              </div>
-              <div className='md:w-1/2'>
-                <img src={ortodonti} alt='ortodonti' className='w-full h-auto rounded-sm object-cover' />
+            <TabPanel>
+              <div className='flex items-center px-6'>
+                <div className='container mx-auto flex flex-col md:flex-row items-center justify-between p-4 gap-6'>
+                  <div className='md:w-1/2 bg-white p-4 rounded-sm h-64'>
+                    <h3 className='text-2xl font-semibold text-primary'>Ortodonti</h3>
+                    <p className='mb-4'>Çapraşık veya düzensiz diş yapısını, diş teli ve şeffaf plak (Invisalign) 
+                    tedavileri ile düzeltip, sağlıklı ve estetik bir gülüşe kavuşmanızı sağlıyoruz.</p>
+                  </div>
+                  <div className='md:w-1/2 bg-white p-4 rounded-sm h-64'>
+                    <img src={ortodonti} alt='ortodonti' className='w-full h-full rounded-sm object-cover' />
+                  </div>
+                </div>
               </div>
             </TabPanel>
             <TabPanel>
