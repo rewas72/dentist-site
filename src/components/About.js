@@ -41,14 +41,14 @@ const About = () => {
           </CustomSlider>
         </motion.div>
         {/* sağ taraf*/}
-        <motion.div variants={fadeIn('left', 0.2)} initial="hidden" whileInView={"show"} viewport={{once: false, amount:0.7}} className='md:w-1/2 h-full '>
+        <div  className='md:w-1/2 h-full '>
             <h1 className='text-4xl text-center font-semibold text-primary'>Hakkımızda</h1>
             <p className='text-center mt-10 text-lg'>Kliniğimiz, 7 yıl önce Türkiye'nin saygın üniversitelerinden birinden mezun olan Dr. Ayşe Yılmaz tarafından kurulmuştur. Diş hekimliği alanındaki uzmanlık ve deneyimlerini modern teknolojilerle birleştirerek, hastalarımıza en iyi ağız ve diş sağlığı hizmetlerini sunmayı amaçlamaktadır.
 
 Kuruluşumuzdan bu yana, kliniğimizde güven ve titizlikle hizmet veriyoruz. Dr. Ayşe Yılmaz’ın liderliğinde, diş hekimlerimiz Dr. Mehmet Demir ve Dr. Zeynep Kara da ekibimize katılarak, hastalarımıza geniş bir yelpazede profesyonel tedavi hizmetleri sunmaktadır. Ortodontiden implant tedavisine, estetik diş hekimliğinden genel diş bakımına kadar tüm alanlarda hastalarımızın gülüşlerini güzelleştirmek için çalışıyoruz.
 
 Kliniğimizdeki her diş hekimi, alanındaki en güncel bilgileri takip ederek, hastalarımızın sağlıklı ve estetik bir gülüşe kavuşmalarını sağlamak için özveriyle çalışmaktadır.</p>
-        </motion.div>
+        </div>
       </div>
     </div>
   )
