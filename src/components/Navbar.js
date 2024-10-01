@@ -82,8 +82,8 @@ const Navbar = () => {
                 {navLinks}
             </div>
 
-            <div className='hidden md:block'>
-                <a href='#contact' className='text-white bg-primary hover:bg-primary/90 px-4 py-2 rounded-sm mr-4 ' >İletişim</a>
+            <div  className='hidden md:block'>
+                <a href='#contact' onClick={e=> handleScrollTo('contact')} className='text-white bg-primary hover:bg-primary/90 px-4 py-2 rounded-sm mr-4 ' >İletişim</a>
             </div>
 
             <div className='block md:hidden'>
@@ -101,7 +101,7 @@ const Navbar = () => {
                     </ul>
                     <li className='list-none p-3 space-y-3 text-white bg-primary hover:bg-primary/90 px-4 py-2 rounded-sm mr-4 '>
                         <a onClick={(e)=> {e.preventDefault()
-                        handleCloseMenu()}} href='#contact'  >İletişim</a>
+                        handleCloseMenu(); handleScrollTo('contact') }} href='#contact'  >İletişim</a>
                     </li>
                </nav> 
             )

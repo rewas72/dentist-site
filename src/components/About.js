@@ -1,5 +1,7 @@
 import React from 'react'
 import CustomSlider from "./costum-slider";
+import { motion } from 'framer-motion'
+import { fadeIn } from '../utils/AnimationVariants';
 
 const About = () => {
 
@@ -31,22 +33,22 @@ const About = () => {
     <div id='about' className='bg-[#f7f8fc] flex items-center px-6 pt-28 px-6 md:h-screen'>
       <div className='container mx-auto flex flex-col md:flex-row items-center justify-between p-8 overflow-y-hidden gap-12 h-full '>
         {/* sol taraf*/}
-        <div className='md:w-1/2 h-full'>
+        <motion.div variants={fadeIn('right', 0.2)} initial="hidden" whileInView={"show"} viewport={{once: false, amount:0.7}} className='md:w-1/2 h-full'>
           <CustomSlider>
             {images.map((image, index) => {
               return <img key={index} src={image.imgURL} alt={image.imgAlt} />;
             })}
           </CustomSlider>
-        </div>
+        </motion.div>
         {/* sağ taraf*/}
-        <div className='md:w-1/2 h-full '>
+        <motion.div variants={fadeIn('left', 0.2)} initial="hidden" whileInView={"show"} viewport={{once: false, amount:0.7}} className='md:w-1/2 h-full '>
             <h1 className='text-4xl text-center font-semibold text-primary'>Hakkımızda</h1>
             <p className='text-center mt-10 text-lg'>Kliniğimiz, 7 yıl önce Türkiye'nin saygın üniversitelerinden birinden mezun olan Dr. Ayşe Yılmaz tarafından kurulmuştur. Diş hekimliği alanındaki uzmanlık ve deneyimlerini modern teknolojilerle birleştirerek, hastalarımıza en iyi ağız ve diş sağlığı hizmetlerini sunmayı amaçlamaktadır.
 
 Kuruluşumuzdan bu yana, kliniğimizde güven ve titizlikle hizmet veriyoruz. Dr. Ayşe Yılmaz’ın liderliğinde, diş hekimlerimiz Dr. Mehmet Demir ve Dr. Zeynep Kara da ekibimize katılarak, hastalarımıza geniş bir yelpazede profesyonel tedavi hizmetleri sunmaktadır. Ortodontiden implant tedavisine, estetik diş hekimliğinden genel diş bakımına kadar tüm alanlarda hastalarımızın gülüşlerini güzelleştirmek için çalışıyoruz.
 
 Kliniğimizdeki her diş hekimi, alanındaki en güncel bilgileri takip ederek, hastalarımızın sağlıklı ve estetik bir gülüşe kavuşmalarını sağlamak için özveriyle çalışmaktadır.</p>
-        </div>
+        </motion.div>
       </div>
     </div>
   )
