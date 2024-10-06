@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { RiMenu3Fill } from "react-icons/ri";
 import { motion } from "framer-motion"
+import logo from '../assets/logo2.png'
 
 
 const Navbar = () => {
@@ -63,7 +64,7 @@ const Navbar = () => {
             </li>
             <li>
                 <a onClick={(e)=>{e.preventDefault();
-                handleCloseMenu(); handleScrollTo('doctors')}} href='#doctors' className={`text-white hover:text-primary/90`}>Doktorlarımız</a>
+                handleCloseMenu(); handleScrollTo('doctors')}} href='#doctors' className={`text-white hover:text-primary/90`}>Avukatlarımız</a>
             </li>
          </ul>
     )
@@ -74,7 +75,7 @@ const Navbar = () => {
         {/*Logo */}
             <div className='text-white text-lg font-semibold'>
                 <a href=''>
-                    <img className="w-32 md:w-32 lg:w-48 ml-4" src='/logo.png' alt='logo' />
+                    <img className="w-32 md:w-32 lg:w-48 ml-4" src={logo} alt='logo' />
                 </a>
             </div>
             {/* nav items */ }

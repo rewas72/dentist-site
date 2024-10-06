@@ -14,17 +14,17 @@ const About = () => {
     },
     {
       imgURL:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEMNqSMDTV_Qpm-UJXhvggnhHSw1f1_4_xTQ&s",
+        "https://ahithukukburosu.com/wp-content/uploads/2021/01/ahit-hukuk-burosu-giris-1024x643.jpg",
       imgAlt: "img-2"
     },
     {
       imgURL:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnGU_mRx2F9Ai1y5dFdEQT6wdgS2LHGHsbNQ&s",
+        "https://www.ahmetekin.av.tr/wp-content/uploads/2021/10/Downloader.la-6167bfa5ae77c_1200x628-780x470.jpg",
       imgAlt: "img-3"
     },
     {
       imgURL:
-        "https://winnfamilydentistry.com/wp-content/uploads/2020/09/178570688_xl-2015-780x520.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEA6ogS7rpZ5kw8hu4HUwx7yzGEjbsGo3Vg&s",
       imgAlt: "img-4"
     }
   ];
@@ -43,11 +43,7 @@ const About = () => {
         {/* sağ taraf*/}
         <div  className='md:w-1/2 h-full '>
             <h1 className='text-4xl text-center font-semibold text-primary'>Hakkımızda</h1>
-            <p className='text-center mt-10 text-lg'>Kliniğimiz, 7 yıl önce Türkiye'nin saygın üniversitelerinden birinden mezun olan Dr. Ayşe Yılmaz tarafından kurulmuştur. Diş hekimliği alanındaki uzmanlık ve deneyimlerini modern teknolojilerle birleştirerek, hastalarımıza en iyi ağız ve diş sağlığı hizmetlerini sunmayı amaçlamaktadır.
-
-Kuruluşumuzdan bu yana, kliniğimizde güven ve titizlikle hizmet veriyoruz. Dr. Ayşe Yılmaz’ın liderliğinde, diş hekimlerimiz Dr. Mehmet Demir ve Dr. Zeynep Kara da ekibimize katılarak, hastalarımıza geniş bir yelpazede profesyonel tedavi hizmetleri sunmaktadır. Ortodontiden implant tedavisine, estetik diş hekimliğinden genel diş bakımına kadar tüm alanlarda hastalarımızın gülüşlerini güzelleştirmek için çalışıyoruz.
-
-Kliniğimizdeki her diş hekimi, alanındaki en güncel bilgileri takip ederek, hastalarımızın sağlıklı ve estetik bir gülüşe kavuşmalarını sağlamak için özveriyle çalışmaktadır.</p>
+            <p className='text-center mt-10 text-lg'>Büromuz, 7 yıl önce Türkiye’nin saygın üniversitelerinden mezun olan Avukat Ayşe Yılmaz tarafından kurulmuştur. Hukuk alanındaki uzmanlık ve deneyimini titizlikle harmanlayarak, müvekkillerimize en iyi hukuki hizmetleri sunmayı amaçlamaktadır. Kuruluşumuzdan bu yana, güven ve profesyonellik ilkelerinden ödün vermeden hizmet veriyoruz. Avukat Ayşe Yılmaz’ın liderliğinde, ekibimize katılan Avukat Mehmet Demir ve Avukat Zeynep Kara da aile hukuku, iş hukuku ve ceza hukuku gibi geniş bir yelpazede müvekkillerimize profesyonel hukuki danışmanlık ve dava hizmetleri sunmaktadır. Büromuzdaki her avukat, alanındaki en güncel mevzuatı ve yargı kararlarını yakından takip ederek, müvekkillerimizin haklarını en iyi şekilde savunmak ve adaleti sağlamak için özveriyle çalışmaktadır.</p>
         </div>
       </div>
     </div>
